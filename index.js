@@ -4,7 +4,7 @@ var fs = require('fs');
 var request = require('request');
 
 module.exports = {
-  submit: function(options) {
+  upload: function(options) {
     return new Promise(function(resolve, reject) {
       var postOpts = {
         url: 'https://rink.hockeyapp.net/api/2/apps/' + options.id + '/app_versions/upload',
