@@ -44,18 +44,18 @@ gulp.task('hockeyapp', function(done) {
 
 **options.inputFile** - path to input file.
 
-**options.notify** - whether to notify testers about new build or not. Possible values:
+**options.notify** - whether to notify testers about new build or not, optional. Possible values:
 
- * 0 - don't notify testers
+ * 0 - don't notify testers (default value)
  * 1 - notify all testers that can install the app
  * 2 - notify all
  
  This setting requires full-access token.
 
-**options.status** - download status. Possible values:
+**options.status** - download status, optional. Possible values:
 
  * 1 - don't allow users to download or install this version
- * 2 - available for download and installation
+ * 2 - available for download and installation (default value) 
 
 **options.teamList** - array of teams ids which should be able to download the app.
 

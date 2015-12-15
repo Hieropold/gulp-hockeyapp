@@ -13,13 +13,24 @@ module.exports = {
       },
       formData: {
         ipa: fs.createReadStream(options.inputFile),
-        notify: options.notify,
-        status: options.status
+        notify: 0,
+        status: 2
       }
     };
 
+    // Optional team list
     if (options.teamList && options.teamList.length) {
       postOpts.formData.teams = options.teamList.join(',');
+    }
+
+    // Optional notify
+    if (options.notify) {
+      postOpts.formData.notify = options.notify;
+    }
+
+    // Optional status
+    if (options.status) {
+      postOpts.formData.status = options.status;
     }
 
     return new Promise(function(resolve, reject) {
