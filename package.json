@@ -1,0 +1,24 @@
+{
+  "name": "gulp-hockeyapp",
+  "version": "0.0.1",
+  "description": "Gulp task for uploading builds to HockeyApp service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hieropold/gulp-hockeyapp.git"
+  },
+  "keywords": [
+    "gulp",
+    "hockeyapp",
+    "deploy"
+  ],
+  "author": "Ilya Kurnosenkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hieropold/gulp-hockeyapp-upload/issues"
+  },
+  "homepage": "https://github.com/Hieropold/gulp-hockeyapp#readme"
+}
