@@ -12,7 +12,7 @@ module.exports = {
           'X-HockeyAppToken': options.apiToken
         },
         formData: {
-          ipa: fs.createReadStream(options.file),
+          ipa: fs.createReadStream(options.inputFile),
           notify: 0,
           status: 2,
           teams: options.teamList
