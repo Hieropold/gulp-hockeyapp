@@ -38,13 +38,13 @@ gulp.task('hockeyapp', function(done) {
 
 ## Options
 
-**options.id** - application id, e.g. 174c943c7783430a9e1cb20bb372aea1.
+**options.id** - required application id, e.g. 174c943c7783430a9e1cb20bb372aea1.
 
-**options.apiToken** - API token issued on HockeyApp site.
+**options.apiToken** - required API token issued on HockeyApp site.
 
-**options.inputFile** - path to input file.
+**options.inputFile** - required path to input file.
 
-**options.notify** - whether to notify testers about new build or not, optional. Possible values:
+**options.notify** - optional, whether to notify testers about new build or not. Possible values:
 
  * 0 - don't notify testers (default value)
  * 1 - notify all testers that can install the app
@@ -52,12 +52,12 @@ gulp.task('hockeyapp', function(done) {
  
  This setting requires full-access token.
 
-**options.status** - download status, optional. Possible values:
+**options.status** - optional download status. Possible values:
 
  * 1 - don't allow users to download or install this version
  * 2 - available for download and installation (default value) 
 
-**options.teamList** - array of teams ids which should be able to download the app.
+**options.teamList** - optional array of teams ids which should be able to download the app.
 
 ## License
 
