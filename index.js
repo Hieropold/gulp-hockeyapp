@@ -48,17 +48,17 @@ module.exports = {
 
       request.post(postOpts, function(err, response) {
         if (err) {
-          reject(err);
+          return reject(err);
         }
 
         else if (response.statusCode != 201) {
-          reject({
+          return reject({
             status: response.statusCode,
             body: response.body
           });
         }
 
-        resolve(response);
+        return resolve(response);
       });
     });
   }
