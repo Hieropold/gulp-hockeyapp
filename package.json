@@ -1,6 +1,6 @@
 {
   "name": "gulp-hockeyapp",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Gulp task for uploading builds to HockeyApp service.",
   "main": "index.js",
   "scripts": {
