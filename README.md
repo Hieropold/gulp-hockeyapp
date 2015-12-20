@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/gulp-hockeyapp.svg)](https://badge.fury.io/js/gulp-hockeyapp)
+
 # gulp-hockeyapp
 
 Gulp task for uploading builds to HockeyApp service. Only one HockeyApp API method is supported - [Upload Version](http://support.hockeyapp.net/kb/api/api-versions#upload-version), which enables user to upload and start distributing a new build for pre-configured application. 
