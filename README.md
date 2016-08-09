@@ -61,6 +61,13 @@ gulp.task('hockeyapp', function(done) {
 
 **options.teamList** - optional array of teams ids which should be able to download the app.
 
+**options.notes** - optional release notes.
+
+**options.notes_type** - optional, type of the release notes text. Possible values:
+
+ * 1 - Textile
+ * 2 - Markdown 
+
 ## License
 
 See LICENSE file.
