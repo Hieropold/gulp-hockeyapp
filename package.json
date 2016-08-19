@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Hieropold/gulp-hockeyapp-upload/issues"
   },
-  "homepage": "https://github.com/Hieropold/gulp-hockeyapp#readme"
+  "homepage": "https://github.com/Hieropold/gulp-hockeyapp#readme",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
 }
